@@ -2,6 +2,20 @@ body {
   background-color: var(--theme-background);
 }
 
+.sidebar {
+  font-family: var(--font-dm-sans);
+}
+
+.main-container {
+  font-family: var(--font-dm-sans);
+  position: fixed;
+  right: 0;
+  left: 0;
+  max-width: 80vw;
+  height: 100vh;
+  margin-left: 290px;
+}
+
 .sidebar__background-parent {
   border-right: 1px solid var( --theme-border-primary);
   border-bottom: 2px solid var( --theme-border-primary);
@@ -28,4 +42,8 @@ body {
   border-left: 1px solid var( --theme-border-primary);
   border-bottom: 2px solid var( --theme-border-primary);
   border-radius: 8px;
+}
+
+.disclaimer-premium {
+  font-family: var(--font-dm-sans);
 }
